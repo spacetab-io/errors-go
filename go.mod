@@ -1,3 +1,3 @@
-module github.com/microparts/errors-go
+module github.com/spacetab-io/errors-go
 
-go 1.12
+go 1.4

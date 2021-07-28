@@ -1,10 +1,12 @@
 package errors
 
-type FieldName string
-type ValidationError string
-type ErrorCode string
-type ErrorType string
-type DebugData interface{}
+type (
+	FieldName       string
+	ValidationError string
+	ErrorCode       string
+	ErrorType       string
+	DebugData       interface{}
+)
 
 type Response struct {
 	Error ErrorObject `json:"error"`
